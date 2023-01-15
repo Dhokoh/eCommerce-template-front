@@ -1,11 +1,16 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import Navbar from './assets/components/NavbarHeader';
-import NavbarHeader from './assets/components/NavbarHeader';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import UniversalContainer from './assets/components/UniversalContainer';
+import {Route, Routes, BrowserRouter} from 'react-router-dom';
 
 function App() {
   return (
-    <NavbarHeader />
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<UniversalContainer/>} />
+    </Routes>
+    </BrowserRouter>
   );
 }
 
