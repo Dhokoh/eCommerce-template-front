@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<UniversalContainer/>} />
+      <Route path='/eCommerce5_front' element={<UniversalContainer/>} />
     </Routes>
     </BrowserRouter>
   );

@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 function UniversalContainer() {
     return(
         <>
-            <NavbarHeader />
+            <NavbarHeader /> 
                 <Outlet />
             <NavbarFooter />
         </>

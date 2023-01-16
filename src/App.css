@@ -1,0 +1,39 @@
+.topNavbarContainer{
+
+}
+.navHeader{
+    height: 100px !important;
+}
+.brand{
+    color:#58575bcd !important;
+    padding-left: 10px;
+}
+.navHeaderLink:link{
+    color:#58575bcd;
+}
+#headerHome{
+    padding-left: 65px !important;
+}
+#headerProducts{
+    padding-left: 25px !important;
+}
+#headerLogin{
+    padding-left: 25px !important;
+}
+.topSearchbar{
+    color:#58575bcd;
+}
+.topSearchbarLabel{
+    padding-top: 10px !important;
+    padding-left: 100px !important;
+}
+#searchProdBar{
+    width: 250px !important;
+    margin-left: 15px;
+}
+.searchButton{
+    height: 30px !important;
+    width: 75px !important;
+    padding-bottom: 30px !important;
+    margin-left: 15px !important;
+}
