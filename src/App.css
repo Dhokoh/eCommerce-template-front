@@ -33,10 +33,17 @@
     margin-left: 15px;
 }
 .searchButton{
-    height: 30px !important;
-    width: 75px !important;
+    height: 25px !important;
+    width: 70px !important;
     padding-bottom: 30px !important;
-    margin-left: 15px !important;
+    margin-left: 10px !important;
+    background-color: #838a8a !important;
+    border-color: #000000 !important;
 }
 
 /*Bottom Navbar*/
+
+.footerBrand{
+    color: #4e5f5f !important;
+    font-size: 15px!important;
+}

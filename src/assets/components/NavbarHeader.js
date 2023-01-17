@@ -6,8 +6,8 @@ import Form from 'react-bootstrap/Form'
 function NavbarHeader() {
   return (
     <>
-    <Container className='topNavbarContainer justify-content-center'>
-      <Navbar className='navHeader' bg='light' expand='lg' fixed='top'>
+    <Container className='topNavbarContainer'>
+      <Navbar className='navHeader justify-content-center' bg='light' expand='lg' fixed='top'>
         <Navbar.Brand className='brand' href='/eCommerce5_front'>eCommerce5_front</Navbar.Brand>
         <Nav.Link className='navHeaderLink' id='headerHome'>Home</Nav.Link>
         <Nav.Link className='navHeaderLink' id='headerProducts'>Products</Nav.Link>
@@ -15,7 +15,7 @@ function NavbarHeader() {
         <Form className='topSearchbar' action=''>
           <Form.Label className='topSearchbarLabel' for='searchProdBar'>Looking for something?</Form.Label>
           <input type='text' id='searchProdBar'></input>
-          <Button className='searchButton' variant="secondary">Search</Button>
+          <Button className='searchButton' variant="primary">Search</Button>
         </Form>
 
       </Navbar>
