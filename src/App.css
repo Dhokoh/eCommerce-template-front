@@ -1,3 +1,5 @@
+/*Top Navbar*/
+
 /* .topNavbarContainer{
 } */
 .navHeader{
@@ -35,5 +37,6 @@
     width: 75px !important;
     padding-bottom: 30px !important;
     margin-left: 15px !important;
-    background-color: #6f648fcd;
 }
+
+/*Bottom Navbar*/
