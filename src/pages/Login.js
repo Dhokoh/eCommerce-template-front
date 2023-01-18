@@ -1,11 +1,11 @@
 import Container from 'react-bootstrap/Container';
 
-function Products(){
+function Login(){
     return (
         <Container>
-            <h1>I'm the Products page.</h1>
+            <h1>I'm the login page</h1>
         </Container>
     )
-}
+};
 
-export default Products;
+export default Login;

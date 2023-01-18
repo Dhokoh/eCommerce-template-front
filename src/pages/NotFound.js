@@ -1,11 +1,11 @@
 import Container from 'react-bootstrap/Container';
 
-function Products(){
+function NotFound(){
     return (
         <Container>
-            <h1>I'm the Products page.</h1>
+            <h1>404 Not Found</h1>
         </Container>
     )
-}
+};
 
-export default Products;
+export default NotFound;
