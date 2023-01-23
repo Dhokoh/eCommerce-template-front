@@ -115,5 +115,23 @@
     color: #000000 !important;
 }
 
+/*Signup page items*/
 
-
+/* .signupContainer{
+    
+} */
+.signupTitle{
+    color: #4e5f5f;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.signupParagraph{
+    color: #687a7a;
+}
+.signupDisclosure{
+    font-size: x-small;
+    color: #4e5f5f;
+}
+.signupFormTextField{
+    width: 500px !important;
+}
