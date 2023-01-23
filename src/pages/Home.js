@@ -46,21 +46,6 @@ function Home() {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-
-            {/* <Carousel>
-                <Carousel.Item className='carouselItem'>
-                    <img src={require('../assets/images/cdbproduct.jpg')} alt='Medicinal products' href=''></img>
-                    <Carousel.Caption>
-                        <h4>Medical homeopathic products</h4>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item className='carouselItem'>
-                    <img src={require('../assets/images/cdbproduct.jpg')} alt='Medicinal products' href=''></img>
-                    <Carousel.Caption>
-                        <h4>Medical homeopathic products</h4>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel> */}
         </Container>
     );
 }
