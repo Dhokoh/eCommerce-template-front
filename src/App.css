@@ -58,5 +58,62 @@
     flex-direction: column !important;
 }
 .carouselImg{
-    height: 525px !important;
+    height: 500px !important;
 }
+
+/*Home page items*/
+
+.homeLoginLink{
+    color: #4e5f5f;
+}
+.homeLoginLink:link{
+    color: #58575bcd !important;
+    text-decoration: none !important;
+}
+.homeLoginLink:visited{
+    color: #4e5f5f !important;
+    text-decoration: none !important;
+}
+.homeLoginLink:active{
+    color: #4e5f5f !important;
+}
+
+/*Login page items*/
+
+.loginTitle{
+    color: #4e5f5f !important;
+}
+.titleFormSeparator{
+    padding: 45px 45px 0px 0px;
+}
+.emailFieldParagraph{
+    font-size: x-small;
+}
+.loginPageInput{
+    width: 600px !important;
+}
+.loginButton{
+    background-color: #4e5f5f !important;
+    border-color: #000000 !important;
+    margin-top: 15px !important;
+}
+.loginButton:hover{
+    background-color: #717da0 !important;
+}
+.formSignupLink:link{
+    color: #58575bcd !important;
+    text-decoration: none !important;
+}
+.formSignupLink:visited{
+    color: #4e5f5f !important;
+    text-decoration: none !important;
+}
+.formSignupLink:active{
+    color: #4e5f5f !important;
+}
+.formSignupLink:hover{
+    color: #000000 !important;
+}
+
+
+

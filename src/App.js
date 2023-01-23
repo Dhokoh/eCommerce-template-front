@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Products from './pages/Products';
 import Login from './pages/Login';
 import NotFound from './pages/NotFound';
+import Signup from './pages/Signup'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/home' element={<Home />}></Route>
           <Route path='/products' element={<Products />}></Route>
           <Route path='/login' element={<Login />}></Route>
+          <Route path='/signup' element={<Signup />}></Route>
           <Route path='*' element={<NotFound />}></Route>
         </Route>
       </Routes>

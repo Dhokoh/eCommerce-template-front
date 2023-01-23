@@ -6,11 +6,11 @@ import Carousel from 'react-bootstrap/Carousel';
 function Home() {
     return (
         <Container className='carouselContainer justify-content-center'>
-            <h1 className='carouselTitle'>All products in one place</h1>
+            <h2 className='carouselTitle'>All products in one place</h2>
             <Carousel>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 carouselImg"
                         src={require('../assets/images/cdbproduct.jpg')}
                         alt="Health and wellness"
                     />
@@ -33,7 +33,7 @@ function Home() {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block w-100 carouselImg"
                         src={require('../assets/images/technologyproducts.jpg')}
                         alt="Technology and gaming"
                     />
@@ -46,6 +46,9 @@ function Home() {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
+            <div className='homeLoginLink'>
+                <h6>Have an account? <a href='/login'>Log in</a>.</h6>
+            </div>
         </Container>
     );
 }
