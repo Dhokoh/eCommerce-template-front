@@ -133,6 +133,7 @@
 .signupFormRightSide{
     display: flex;
     padding: 5px;
+    justify-content: flex-end;
 }
 .signupTitle{
     color: #4e5f5f;
@@ -150,12 +151,16 @@
 .signupFormTextField{
     width: 300px !important;
 }
-
+.signupButtonContainer{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
 .signupButton{
     background-color: #4e5f5f !important;
     border-color: #000000 !important;
     margin-top: 15px !important;
-    width: 100%;
+    width: 300px;
 }
 .signupButton:hover{
     background-color: #597575 !important;
