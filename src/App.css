@@ -117,12 +117,6 @@
 
 /*Signup page items*/
 
-/* .signupFormDiv{
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
-    justify-content: flex-start;
-    align-content:flex-start
-} */
 .formLabel{
     padding-right: 10px;
 }
