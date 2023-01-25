@@ -145,7 +145,18 @@
 .signupDisclosure{
     font-size: x-small;
     color: #4e5f5f;
+    margin-top: 15px;
 }
 .signupFormTextField{
     width: 300px !important;
+}
+
+.signupButton{
+    background-color: #4e5f5f !important;
+    border-color: #000000 !important;
+    margin-top: 15px !important;
+    width: 100%;
+}
+.signupButton:hover{
+    background-color: #597575 !important;
 }
