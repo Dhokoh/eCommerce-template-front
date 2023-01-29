@@ -28,7 +28,7 @@ function Signup() {
                 check products, their prices and stock in our platform, as well as posting product reviews, you need to create an account.
             </p>
             <Container className="">
-                <Form onSubmit={handleSubmit}>
+                <Form onSubmit={handleSubmit()}>
                     <Row>
                         <Col>
                             <Form.Group className='signupFormLeftSide'>
@@ -40,7 +40,7 @@ function Signup() {
                                 <Form.Control onChange={handleChange} name="email" className="signupFormTextField" type='text'></Form.Control>
                             </Form.Group>
                             <Form.Group className="signupFormLeftSide">
-                                <Form.Label className='formLabel'>Country*</Form.Label>
+                                <Form.Label id="country" className='formLabel'>Country*</Form.Label>
                                 <Form.Control onChange={handleChange} name="phoneNumber" className="signupFormTextField" type='text'></Form.Control>
                             </Form.Group>
                         </Col>
