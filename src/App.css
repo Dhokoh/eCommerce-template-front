@@ -159,3 +159,12 @@
 .signupButton:hover{
     background-color: #597575 !important;
 }
+
+/*Products page*/
+
+.productsPageTitle{
+    color: #4e5f5f;
+}
+.colLabel{
+    color: #597575;
+}

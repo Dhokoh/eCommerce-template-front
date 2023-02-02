@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 function Home() {
     return (
         <Container className='carouselContainer justify-content-center'>
-            <h2 className='carouselTitle'>All products in one place</h2>
+            <h2 className='carouselTitle'>Lots of cannabis products in one place!</h2>
             <Carousel>
                 <Carousel.Item>
                     <img
@@ -15,33 +15,33 @@ function Home() {
                         alt="Health and wellness"
                     />
                     <Carousel.Caption>
-                        <h3>Health and wellness</h3>
-                        <p>From farmaceuticals to homeopathic medicine. Everything for your health and wellbeing.</p>
+                        <h3>CBD oils and extracts</h3>
+                        <p>For anxiety, trembles and sleeping disorders.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100 carouselImg"
-                        src={require('../assets/images/clothinghomegoods.jpg')}
-                        alt="Clothing and home goods"
+                        src={require('../assets/images/thcedibles.jpg')}
+                        alt="CBD drops and oils"
                     />
 
                     <Carousel.Caption>
-                        <h3>Clothing and home</h3>
-                        <p>From high quality clothing, to high quality home goods</p>
+                        <h3>THC edibles</h3>
+                        <p>For anxiety, apetite and muscular spasms</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100 carouselImg"
-                        src={require('../assets/images/technologyproducts.jpg')}
-                        alt="Technology and gaming"
+                        src={require('../assets/images/cbdointments.jpg')}
+                        alt="CBD infused ointments"
                     />
 
                     <Carousel.Caption>
-                        <h3>Technology and gaming</h3>
+                        <h3>CBD ointments</h3>
                         <p>
-                            State of the art technology and gaming products.
+                           For muscular and articulation pain. 
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>

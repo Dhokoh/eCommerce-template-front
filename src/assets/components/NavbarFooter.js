@@ -6,7 +6,7 @@ function NavbarFooter() {
         <>
             <Navbar className='footerNavbar' expand="lg" variant="light" bg="light dark" fixed='bottom'>
                 <Container className='navbarFooterContainer justify-content-center'>
-                    <Navbar.Brand className='footerBrand'>eCommerce5_front</Navbar.Brand>
+                    <Navbar.Brand className='footerBrand'>Canna-eShop</Navbar.Brand>
                     <Navbar.Text className='footerText'>All rights reserved</Navbar.Text>
                 </Container>
             </Navbar>
