@@ -6,11 +6,11 @@ function Login(){
     return (
         <Container className='carouselContainer justify-content-center'>
             <div className='titleFormSeparator'></div>
-            <h2 className='loginTitle'>Welcome back! Please login</h2>
+            <h2 className='loginTitle'>Login</h2>
             <div className='titleFormSeparator'></div>
             <Form>
                 <FormGroup>
-                    <Form.Label>
+                    <Form.Label className='formLabel'>
                         Email
                     </Form.Label>
                     <Form.Control className='loginPageInput' type='email' placeholder='Enter your email'/>
@@ -19,7 +19,7 @@ function Login(){
                     </Form.Text>
                 </FormGroup>
                 <FormGroup controlId='formBasicPassword'>
-                    <Form.Label>Password</Form.Label>
+                    <Form.Label className='formLabel'>Password</Form.Label>
                     <Form.Control className='loginPageInput' type='password' placeholder='Password'></Form.Control>
                 </FormGroup>
                 <Button className='loginButton'>

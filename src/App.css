@@ -6,11 +6,11 @@
     height: 100px !important;
 }
 .brand{
-    color:#58575bcd !important;
+    color:#17770ecd !important;
     padding-left: 10px;
 }
 .navHeaderLink:link{
-    color:#58575bcd;
+    color:#72df64cd;
 }
 #headerHome{
     padding-left: 65px !important;
@@ -51,7 +51,8 @@
 /*Carousel items*/
 
 .carouselTitle{
-    color:#717da0;
+    color:#196b24;
+    padding: 50px 0px 50px 0px !important ;
 }
 .carouselItem{
     display: flex !important;
@@ -65,6 +66,7 @@
 
 .homeLoginLink{
     color: #4e5f5f;
+    padding: 10px 0px 0px 0px;
 }
 .homeLoginLink:link{
     color: #58575bcd !important;
@@ -81,7 +83,11 @@
 /*Login page items*/
 
 .loginTitle{
-    color: #4e5f5f !important;
+    color: #31772acd !important;
+    padding: 20px 0px 0px 0px;
+}
+.formLabel{
+    color: #7e7e7e;
 }
 .titleFormSeparator{
     padding: 45px 45px 0px 0px;
@@ -93,7 +99,7 @@
     width: 600px !important;
 }
 .loginButton{
-    background-color: #4e5f5f !important;
+    background-color: #838a8a !important;
     border-color: #000000 !important;
     margin-top: 15px !important;
 }
@@ -117,12 +123,23 @@
 
 /*Signup page items*/
 
+.signupContainer{
+    padding: 50px 0px 0px 0px;
+}
 .formLabel{
-    padding-right: 10px;
+    padding-right: 5px;
+}
+#country{
+    display: flex !important;
+    margin-right: 0px;
 }
 .signupFormLeftSide{
     display: flex;
-    padding: 5px;
+    padding: 5px 0px 5px 0px;
+    justify-content: flex-start;
+}
+.signupCardHolder{
+    padding: 15px 0px 0px 0px;
 }
 .signupFormRightSide{
     display: flex;
@@ -162,9 +179,34 @@
 
 /*Products page*/
 
+.productsRow{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+}
 .productsPageTitle{
-    color: #4e5f5f;
+    color: #196b24;
+    padding-bottom: 125px;
+    padding-top: 30px;
+}
+.productLink{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+.productLink:link{
+    color: #597575;
+    text-decoration: none;
+}
+.productLink:visited{
+    color: #5a5959;
+    text-decoration: none !important;
+}
+.productLink:hover{
+    color: #000000;
 }
 .colLabel{
     color: #597575;
+}
+.cardTitle{
+    display: flex !important;
 }

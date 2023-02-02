@@ -1,14 +1,35 @@
 import Container from 'react-bootstrap/Container';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Card } from 'react-bootstrap';
 
 function Products(){
     return (
         <Container>
             <h1 className='productsPageTitle'>Our products</h1>
-            <Row>
-                <Col className='colLabel'>CBD Oils and extracts</Col>
-                <Col className='colLabel'>THC edibles</Col>
-                <Col className='colLabel'>CBD ointments</Col>
+            <Row className='productsRow'>
+                <Col className='colLabel'>
+                    <Card className='productCardTitle'>
+                        <Card.Img src={require('../assets/images/cbdoilsandextractsthumbnail.jpg')}></Card.Img>
+                        <Card.Body>
+                            <Card.Title className='cardTitle'><a className='productLink' href='/home'>CBD Oils and extracts</a></Card.Title>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className='colLabel'>
+                    <Card className='productCardTitle'>
+                        <Card.Img src={require('../assets/images/thcediblesthumbnail.jpg')}></Card.Img>
+                        <Card.Body>
+                            <Card.Title className='cardTitle'><a className='productLink' href='/home'>THC edibles</a></Card.Title>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col className='colLabel'>
+                    <Card className='productCardTitle'>
+                        <Card.Img src={require('../assets/images/cbdointmentsthumbnail.jpg')}></Card.Img>
+                        <Card.Body>
+                            <Card.Title className='cardTitle'><a className='productLink' href='/home'>CBD ointments</a></Card.Title>
+                        </Card.Body>
+                    </Card>
+                </Col>
             </Row>
         </Container>
     )

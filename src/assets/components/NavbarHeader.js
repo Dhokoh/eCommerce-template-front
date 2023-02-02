@@ -8,7 +8,7 @@ function NavbarHeader() {
     <>
 
       <Navbar className='navHeader justify-content-center' bg='light' expand='lg' >
-        <Navbar.Brand className='brand' href='/eCommerce5_front'>Canna-eShop</Navbar.Brand>
+        <Navbar.Brand className='brand' href='/'>Canna-eShop</Navbar.Brand>
         <Nav.Link className='navHeaderLink' id='headerHome' href='/'>Home</Nav.Link>
         <Nav.Link className='navHeaderLink' id='headerProducts' href='/products'>Products</Nav.Link>
         <Nav.Link className='navHeaderLink' id='headerLogin' href='/login'>Login</Nav.Link>
