@@ -23,8 +23,8 @@ function Signup() {
     }
     return (
         <Container className="signupContainer">
-            <h2 className="signupTitle">We're happy to have you be a part of our community! Welcome!</h2>
-            <p className="signupParagraph">At eCommerce5_front we have a variety of products for you. In order to be able to
+            <h2 className="signupTitle">We're happy to have you be a part of our users! Welcome!</h2>
+            <p className="signupParagraph">At CannaeShop we have a variety of products for you. In order to be able to
                 check products, their prices and stock in our platform, as well as posting product reviews, you need to create an account.
             </p>
             <Container className="">
