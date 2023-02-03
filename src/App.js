@@ -7,7 +7,10 @@ import Home from './pages/Home';
 import Products from './pages/Products';
 import Login from './pages/Login';
 import NotFound from './pages/NotFound';
-import Signup from './pages/Signup'
+import Signup from './pages/Signup';
+import CBDoilsAndExtracts from './pages/subpages/products.cbdoilsandextracts';
+import CBDointments from './pages/subpages/products.cbdointments';
+import THCedibles from './pages/subpages/products.thcedibles';
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
           <Route index element={<Home />}></Route>
           <Route path='/home' element={<Home />}></Route>
           <Route path='/products' element={<Products />}></Route>
+          <Route path='products/cbd-oils-and-extracts' element={<CBDoilsAndExtracts />}></Route>
+          <Route path='products/cbd-ointments' element={<CBDointments />}></Route>
+          <Route path='products/thc-edibles' element={<THCedibles />}></Route>
           <Route path='/login' element={<Login />}></Route>
           <Route path='/signup' element={<Signup />}></Route>
           <Route path='*' element={<NotFound />}></Route>

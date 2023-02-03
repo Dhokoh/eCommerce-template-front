@@ -10,7 +10,7 @@ function Products(){
                     <Card className='productCardTitle'>
                         <Card.Img src={require('../assets/images/cbdoilsandextractsthumbnail.jpg')}></Card.Img>
                         <Card.Body>
-                            <Card.Title className='cardTitle'><a className='productLink' href='/home'>CBD Oils and extracts</a></Card.Title>
+                            <Card.Title className='cardTitle'><a className='productLink' href='./products/cbd-oils-and-extracts'>CBD Oils and extracts</a></Card.Title>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -18,7 +18,7 @@ function Products(){
                     <Card className='productCardTitle'>
                         <Card.Img src={require('../assets/images/thcediblesthumbnail.jpg')}></Card.Img>
                         <Card.Body>
-                            <Card.Title className='cardTitle'><a className='productLink' href='/home'>THC edibles</a></Card.Title>
+                            <Card.Title className='cardTitle'><a className='productLink' href='/products/thc-edibles'>THC edibles</a></Card.Title>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -26,7 +26,7 @@ function Products(){
                     <Card className='productCardTitle'>
                         <Card.Img src={require('../assets/images/cbdointmentsthumbnail.jpg')}></Card.Img>
                         <Card.Body>
-                            <Card.Title className='cardTitle'><a className='productLink' href='/home'>CBD ointments</a></Card.Title>
+                            <Card.Title className='cardTitle'><a className='productLink' href='/products/cbd-ointments'>CBD ointments</a></Card.Title>
                         </Card.Body>
                     </Card>
                 </Col>
