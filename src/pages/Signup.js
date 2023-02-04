@@ -15,6 +15,7 @@ function Signup() {
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log(inputs);
+        debugger;
         axios.post('http://localhost:5000/users', inputs)
             .then((res) => {
                 console.log('--------------------')
@@ -52,11 +53,11 @@ function Signup() {
                                     </Form.Group>
                                 </Col>
                             </Row>
+                            <div className="signupButtonContainer">
+                                <Button className="signupButton" type='submit'>Sign up</Button>
+                                <h6 className="signupDisclosure">All the information marked with (*) is required.</h6>
+                            </div>
                         </Form>
-                        <div className="signupButtonContainer">
-                            <Button className="signupButton" type='submit'>Sign up</Button>
-                            <h6 className="signupDisclosure">All the information marked with (*) is required.</h6>
-                        </div>
                     </Card.Body>
                 </Card>
             </Container>
