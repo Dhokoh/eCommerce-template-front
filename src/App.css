@@ -210,3 +210,44 @@
 .cardTitle{
     display: flex !important;
 }
+
+/*Not Found page*/
+
+.notFoundTitleHolder{
+    display: flex;
+    flex-direction: column;
+    column-count: 2;
+}
+.notFoundTitle{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #3a814775;
+    font-size: 400px;    
+}
+.notFoundSubtitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    color: #1a5d29 !important;
+}
+
+/*products.cbdoilsandextracts page*/
+
+.productGridContainer{
+    display: flex !important;
+    padding: 75px 0px 0px 0px;
+    justify-content:center;
+}
+.productCol{
+    display: flex;
+}
+.cardBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cardButton{
+    background-color: #20a432be !important; 
+    border-color: #000000 !important;
+    border-radius: 5px !important;
+}
+
+
+

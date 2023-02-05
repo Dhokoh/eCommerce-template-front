@@ -22,7 +22,7 @@ function Login(){
                     <Form.Label className='formLabel'>Password</Form.Label>
                     <Form.Control className='loginPageInput' type='password' placeholder='Password'></Form.Control>
                 </FormGroup>
-                <Button className='loginButton'>
+                <Button type='submit' className='loginButton'>
                     Log in
                 </Button>
                 <h6 className='loginTitle'>Don't have an account? <a className='formSignupLink' href='/signup'>Sign up!</a></h6>

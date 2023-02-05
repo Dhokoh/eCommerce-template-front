@@ -28,7 +28,7 @@ function Home() {
 
                     <Carousel.Caption>
                         <h3>THC edibles</h3>
-                        <p>For anxiety, apetite and muscular spasms</p>
+                        <p>For anxiety, apetite, muscular spasms and pain relief</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>

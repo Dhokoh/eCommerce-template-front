@@ -15,7 +15,6 @@ function Signup() {
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log(inputs);
-        debugger;
         axios.post('http://localhost:5000/users', inputs)
             .then((res) => {
                 console.log('--------------------')

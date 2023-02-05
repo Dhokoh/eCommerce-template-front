@@ -7,7 +7,7 @@ function Products(){
             <h1 className='productsPageTitle'>Our products</h1>
             <Row className='productsRow'>
                 <Col className='colLabel'>
-                    <Card className='productCardTitle'>
+                    <Card style={{width: '18rem'}} className='productCardTitle'>
                         <Card.Img src={require('../assets/images/cbdoilsandextractsthumbnail.jpg')}></Card.Img>
                         <Card.Body>
                             <Card.Title className='cardTitle'><a className='productLink' href='./products/cbd-oils-and-extracts'>CBD Oils and extracts</a></Card.Title>
@@ -15,7 +15,7 @@ function Products(){
                     </Card>
                 </Col>
                 <Col className='colLabel'>
-                    <Card className='productCardTitle'>
+                    <Card style={{width: '18rem'}}className='productCardTitle'>
                         <Card.Img src={require('../assets/images/thcediblesthumbnail.jpg')}></Card.Img>
                         <Card.Body>
                             <Card.Title className='cardTitle'><a className='productLink' href='/products/thc-edibles'>THC edibles</a></Card.Title>
@@ -23,7 +23,7 @@ function Products(){
                     </Card>
                 </Col>
                 <Col className='colLabel'>
-                    <Card className='productCardTitle'>
+                    <Card style={{width: '18rem'}} className='productCardTitle'>
                         <Card.Img src={require('../assets/images/cbdointmentsthumbnail.jpg')}></Card.Img>
                         <Card.Body>
                             <Card.Title className='cardTitle'><a className='productLink' href='/products/cbd-ointments'>CBD ointments</a></Card.Title>
