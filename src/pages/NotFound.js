@@ -7,7 +7,6 @@ function NotFound(){
                 <h1 className='notFoundTitle'>404</h1>
                 <h4 className='notFoundSubtitle'>Oops! Page not found.</h4>
             </div>
-            
         </Container>
     )
 };
