@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.f4dfa6c8.css",
-    "main.js": "/static/js/main.2e3b012e.js",
-    "static/js/787.71df535f.chunk.js": "/static/js/787.71df535f.chunk.js",
-    "static/media/cdbproduct.jpg": "/static/media/cdbproduct.5cef13910308d329504b.jpg",
-    "static/media/thcediblesthumbnail.jpg": "/static/media/thcediblesthumbnail.cf4cfe5df68dd93befa0.jpg",
-    "static/media/cbdointmentsthumbnail.jpg": "/static/media/cbdointmentsthumbnail.35a8f00bbae074647bfa.jpg",
-    "static/media/cbdoilsandextractsthumbnail.jpg": "/static/media/cbdoilsandextractsthumbnail.932b4946b0a8fc920773.jpg",
-    "static/media/thcedibles.jpg": "/static/media/thcedibles.e9f448ca3b37630e0c48.jpg",
-    "static/media/cbdointments.jpg": "/static/media/cbdointments.4965c885354685f89ffa.jpg",
-    "index.html": "/index.html",
-    "main.f4dfa6c8.css.map": "/static/css/main.f4dfa6c8.css.map",
-    "main.2e3b012e.js.map": "/static/js/main.2e3b012e.js.map",
-    "787.71df535f.chunk.js.map": "/static/js/787.71df535f.chunk.js.map"
+    "main.css": "/eCommerce5_front/static/css/main.f4dfa6c8.css",
+    "main.js": "/eCommerce5_front/static/js/main.9ad990fe.js",
+    "static/js/787.71df535f.chunk.js": "/eCommerce5_front/static/js/787.71df535f.chunk.js",
+    "static/media/cdbproduct.jpg": "/eCommerce5_front/static/media/cdbproduct.5cef13910308d329504b.jpg",
+    "static/media/thcediblesthumbnail.jpg": "/eCommerce5_front/static/media/thcediblesthumbnail.cf4cfe5df68dd93befa0.jpg",
+    "static/media/cbdointmentsthumbnail.jpg": "/eCommerce5_front/static/media/cbdointmentsthumbnail.35a8f00bbae074647bfa.jpg",
+    "static/media/cbdoilsandextractsthumbnail.jpg": "/eCommerce5_front/static/media/cbdoilsandextractsthumbnail.932b4946b0a8fc920773.jpg",
+    "static/media/thcedibles.jpg": "/eCommerce5_front/static/media/thcedibles.e9f448ca3b37630e0c48.jpg",
+    "static/media/cbdointments.jpg": "/eCommerce5_front/static/media/cbdointments.4965c885354685f89ffa.jpg",
+    "index.html": "/eCommerce5_front/index.html",
+    "main.f4dfa6c8.css.map": "/eCommerce5_front/static/css/main.f4dfa6c8.css.map",
+    "main.9ad990fe.js.map": "/eCommerce5_front/static/js/main.9ad990fe.js.map",
+    "787.71df535f.chunk.js.map": "/eCommerce5_front/static/js/787.71df535f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4dfa6c8.css",
-    "static/js/main.2e3b012e.js"
+    "static/js/main.9ad990fe.js"
   ]
 }
