@@ -14,7 +14,7 @@ import THCedibles from './pages/subpages/products.thcedibles';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='github.com/Dhokoh/eCommerce5_front'>
       <Routes>
         <Route path='/' element={<UniversalContainer />}>
           <Route index element={<Home />}></Route>
