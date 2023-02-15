@@ -20,9 +20,9 @@ function App() {
           <Route index element={<Home />}></Route>
           <Route path='/home' element={<Home />}></Route>
           <Route path='/products' element={<Products />}></Route>
-          <Route path='products/cbd-oils-and-extracts' element={<CBDoilsAndExtracts />}></Route>
-          <Route path='products/cbd-ointments' element={<CBDointments />}></Route>
-          <Route path='products/thc-edibles' element={<THCedibles />}></Route>
+          <Route path='/products/cbd-oils-and-extracts' element={<CBDoilsAndExtracts />}></Route>
+          <Route path='/products/cbd-ointments' element={<CBDointments />}></Route>
+          <Route path='/products/thc-edibles' element={<THCedibles />}></Route>
           <Route path='/login' element={<Login />}></Route>
           <Route path='/signup' element={<Signup />}></Route>
           <Route path='*' element={<NotFound />}></Route>

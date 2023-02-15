@@ -1,7 +1,8 @@
 import { Nav } from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form'
+import Form from 'react-bootstrap/Form';
+import {LinkContainer} from 'react-router-bootstrap';
 
 function NavbarHeader() {
   return (
@@ -9,9 +10,15 @@ function NavbarHeader() {
 
       <Navbar className='navHeader justify-content-center' bg='light' expand='lg' >
         <Navbar.Brand className='brand' href='/'>Canna-eShop</Navbar.Brand>
-        <Nav.Link className='navHeaderLink' id='headerHome' href='/'>Home</Nav.Link>
-        <Nav.Link className='navHeaderLink' id='headerProducts' href='/products'>Products</Nav.Link>
-        <Nav.Link className='navHeaderLink' id='headerLogin' href='/login'>Login</Nav.Link>
+        <LinkContainer to="/">
+          <Nav.Link className='navHeaderLink' id='headerHome'>Home</Nav.Link>
+        </LinkContainer>
+        <LinkContainer to='/products'>
+          <Nav.Link className='navHeaderLink' id='headerProducts'>Products</Nav.Link>
+        </LinkContainer>
+        <LinkContainer to='/login'>
+          <Nav.Link className='navHeaderLink' id='headerLogin'>Login</Nav.Link>
+        </LinkContainer>
         <Form className='topSearchbar' action=''>
           <Form.Label className='topSearchbarLabel' for='searchProdBar'>Looking for something?</Form.Label>
           <input type='text' id='searchProdBar'></input>
